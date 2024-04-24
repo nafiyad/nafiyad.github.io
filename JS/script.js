@@ -71,9 +71,8 @@ function showCheatSheet(sheetType) {
     content.style.display = 'block'; // Show the cheat sheet
 }
 
-// Simplified function to handle contact form submission
 function handleContactFormSubmission(event) {
-    event.preventDefault();  // Prevent the default form submission behavior
+    event.preventDefault();  
     
     // Display success message
     alert('Message sent successfully!');
@@ -86,8 +85,7 @@ function handleContactFormSubmission(event) {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize or pre-load any necessary functionality
-    animateSkills(); // You might want to call animateSkills here or wherever it's appropriate
+    animateSkills(); 
 });
 
 document.getElementById('contactForm').addEventListener('submit', handleContactFormSubmission);

@@ -36,7 +36,6 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-/* Success message styles */
 #successMessage {
     display: none;
     margin-top: 10px;
